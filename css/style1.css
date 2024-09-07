@@ -1,0 +1,80 @@
+/* Estilo del cuerpo con imagen de fondo */
+body {
+    margin: 20;
+    padding: 20;
+    background-image: url('/img/melody\ zzz.jpg'); 
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: #fcdddc;
+    padding: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.banner-link {
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+
+/* Estilo del banner en la parte superior */
+.banner {
+    width: 100%;
+    height: 150px; /* Ajusta el tamaño según lo que necesites */
+    background-image:url(/img/47a2dfd96b7b495db1344b4e157e55f2.jpg); /* Cambia la ruta según el archivo correcto */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    border: 1px;
+    border-color: rgb(233, 107, 245);
+    border-style: solid;
+    border-radius: 8000px;
+    
+    
+}
+
+
+@media (max-width: 768px) {
+    .banner {
+        height: 100px; /* Reduce el tamaño del banner */
+    }
+
+    .gif-bottom-left,
+    .gif-bottom-right {
+        width: 80px; /* Reduce el tamaño de los GIFs para dispositivos móviles */
+    }
+
+    .main-content {
+        padding: 10px; /* Ajusta el padding del contenido principal */
+    }
+}
+.background-image{
+    width: 20%;
+    height: 120px; /* Ajusta el tamaño según lo que necesites */
+    background-image:url(/img/1792751_57ab1.gif);
+    background-size: cover; /* O 'contain' según lo que necesites */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}

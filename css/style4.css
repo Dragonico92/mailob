@@ -1,0 +1,20 @@
+#love-letters {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.letter {
+    background: #fef6f6;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.letter h3 {
+    margin-top: 0;
+}
+
+.letter p {
+    margin: 0;
+}
